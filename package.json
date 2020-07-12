@@ -1,0 +1,16 @@
+{
+  "name": "websocket-mantap-oioi",
+  "version": "1.0.0-dev",
+  "description": "ini adalah sharing session tentang websocket menggunakan ws dan socketio",
+  "main": "index.js",
+  "scripts": {
+    "startfe": "parcel frontend/chat.html",
+    "build": "rm -rf dist/ .cache/ && parcel build frontend/index.html && cd dist/ && serve",
+    "start": "node server.js",
+    "prod": "parcel build frontend/index.html && node server.js",
+    "clean": "rm -rf dist .cache"
+  },
+  "keywords": [],
+  "author": "ilhamgusti",
+  "license": "ISC"
+}
