@@ -12,5 +12,11 @@
   },
   "keywords": [],
   "author": "ilhamgusti",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.4",
+    "random-animal-name-generator": "^0.1.1",
+    "socket.io": "^2.3.0"
+  }
 }
